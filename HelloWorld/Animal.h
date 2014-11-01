@@ -13,6 +13,9 @@ protected:
 	char* name;
 	int age;
 public:
+	Animal(){
+		name="我是一只鸟";
+	}
 	void eat();
 	void getName();
 };
