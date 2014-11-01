@@ -13,8 +13,10 @@ protected:
 	char* name;
 	int age;
 public:
-	Animal(){
-		name="我是一只鸟";
+	Animal(char * name, int age) :
+		name(name), age(age)
+	{
+
 	}
 	void eat();
 	void getName();

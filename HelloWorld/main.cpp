@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 	cout << "Hello World!" << endl;
-	Animal an;
+	Animal an("Äñ", 3);
 	an.eat();
 	an.getName();
 	cin.get();
