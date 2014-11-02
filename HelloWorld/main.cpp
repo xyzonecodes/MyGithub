@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include "Animal.h"
+#include "TemplateCls.cpp"
 
 using namespace std;
 
@@ -8,6 +9,10 @@ int main() {
 	Animal an("鸟", 3);
 	an.eat();
 	an.getName();
-	cout<<"UTF-8 都不行啊"<<endl;
+	cout << "UTF-8 都不行啊" << endl;
+	TemplateCls<int> tc;
+	int a = 3, b = 4;
+	tc.swap(a, b);
+	cout<<"a:"<<a<<"   b:"<<b<<endl;
 	cin.get();
 }
