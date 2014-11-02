@@ -13,6 +13,10 @@ int main() {
 	TemplateCls<int> tc;
 	int a = 3, b = 4;
 	tc.swap(a, b);
-	cout<<"a:"<<a<<"   b:"<<b<<endl;
+	cout << "a:" << a << "   b:" << b << endl;
+
+	int static_i = 65;
+	char char_p = static_cast<char>(static_i);
+	cout << char_p << endl;
 	cin.get();
 }

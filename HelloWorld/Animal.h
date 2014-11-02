@@ -10,10 +10,10 @@
 
 class Animal {
 protected:
-	char* name;
+	const char* name;
 	int age;
 public:
-	Animal(char * name, int age) :
+	Animal(const char * name, int age) :
 		name(name), age(age)
 	{
 
