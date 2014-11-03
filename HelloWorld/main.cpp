@@ -10,10 +10,7 @@ using namespace totcp;
 void showMain();
 
 int main() {
-	/*cout << "Hello World!" << endl;
-	Animal an("鸟", 3);
-	an.eat();
-	an.getName();
+	/*
 	cout << "UTF-8 都不行啊" << endl;
 	TemplateCls<int> tc;
 	int a = 3, b = 4;
