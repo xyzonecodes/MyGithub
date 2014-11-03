@@ -10,7 +10,7 @@ using namespace totcp;
 void showMain();
 
 int main() {
-	cout << "Hello World!" << endl;
+	/*cout << "Hello World!" << endl;
 	Animal an("鸟", 3);
 	an.eat();
 	an.getName();
@@ -22,7 +22,7 @@ int main() {
 
 	int static_i = 65;
 	char char_p = static_cast<char>(static_i);
-	cout << char_p << endl;
+	cout << char_p << endl;*/
 	showMain();
 	cout << "请输入任意字符结束！" << endl;
 	char endChar;
