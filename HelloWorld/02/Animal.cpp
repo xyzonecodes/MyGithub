@@ -28,6 +28,10 @@ void Animal::showMain() {
 	this->age = 10;
 	this->setVale(100);
 	this->eat();
-	cout << "base Value:" << this->getValue() << endl;
+	Animal an;
+	an.age = this->age;
+	an.name = this->name;
+	an.setVale(this->getValue());
+	cout << an << endl;
 }
 }

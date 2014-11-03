@@ -9,6 +9,9 @@
 #define ANIMAL_H_
 
 #include "../baseCls.h"
+#include <iostream>
+
+using namespace std;
 
 namespace totcp {
 class Animal: public baseCls {
@@ -22,6 +25,10 @@ public:
 	void eat();
 	void getName();
 	void showMain();
+	friend ostream& operator<<(ostream& os,  Animal& an) {
+		os << "姓名" << an.name << "       年齡：" << an.age << "      父 Value ："<<an.getValue();
+		return os;
+	}
 };
 }
 #endif /* ANIMAL_H_ */
