@@ -16,12 +16,12 @@
     <Filter Include="源文件\01">
       <UniqueIdentifier>{945686d4-8eb1-44be-8128-8c8449131d3b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\02">
+      <UniqueIdentifier>{2d3815a8-181c-41e3-b59a-254044cf55a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Animal.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="01\refAdd.cpp">
@@ -30,16 +30,19 @@
     <ClCompile Include="baseCls.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="02\Animal.cpp">
+      <Filter>源文件\02</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Animal.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="01\refAdd.h">
       <Filter>源文件\01</Filter>
     </ClInclude>
     <ClInclude Include="baseCls.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="02\Animal.h">
+      <Filter>源文件\02</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

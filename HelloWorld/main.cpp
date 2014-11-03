@@ -10,19 +10,6 @@ using namespace totcp;
 void showMain();
 
 int main() {
-<<<<<<< HEAD
-	cout << "Hello World!" << endl;
-	/*
-	 cout << "UTF-8 都不行啊" << endl;
-	 TemplateCls<int> tc;
-	 int a = 3, b = 4;
-	 tc.swap(a, b);
-	 cout << "a:" << a << "   b:" << b << endl;
-
-	 int static_i = 65;
-	 char char_p = static_cast<char>(static_i);
-	 cout << char_p << endl;*/
-=======
 	/*cout << "Hello World!" << endl;
 	Animal an("鸟", 3);
 	an.eat();
@@ -36,7 +23,6 @@ int main() {
 	int static_i = 65;
 	char char_p = static_cast<char>(static_i);
 	cout << char_p << endl;*/
->>>>>>> 50243506f6e1e3f5a1cf16f1671bf0307680a2ca
 	showMain();
 	cout << "请输入任意字符结束！" << endl;
 	char endChar;

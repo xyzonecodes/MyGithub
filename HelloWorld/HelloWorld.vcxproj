@@ -79,13 +79,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="01\refAdd.cpp" />
-    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="02\Animal.cpp" />
     <ClCompile Include="baseCls.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01\refAdd.h" />
-    <ClInclude Include="Animal.h" />
+    <ClInclude Include="02\Animal.h" />
     <ClInclude Include="baseCls.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
