@@ -24,17 +24,21 @@ int main() {
 	char char_p = static_cast<char>(static_i);
 	cout << char_p << endl;
 	showMain();
-	cin.get();
+	cout << "请输入任意字符结束！" << endl;
+	char endChar;
+	cin >> endChar;
+
 }
 
 void showMain() {
-	string input;
+	char input[20] = { 0 };
 	baseCls *pBase = NULL;
 	cout << "请输入要执行文件的目录名称：" << endl;
 	cin >> input;
-	if (input == "01") {
+	if (strcmp(input, "01")==0) {
 		pBase = new refAdd();
-	} else {
+	}
+	else {
 		pBase = new baseCls();
 	}
 	pBase->showMain();

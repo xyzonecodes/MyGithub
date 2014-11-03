@@ -20,6 +20,7 @@ public:
 	virtual ~refAdd();
 	void showMain();
 	refAdd(int n);
+	void set(int n);
 	void  Add(const refAdd& a,const refAdd& b);
 	void show();
 };
