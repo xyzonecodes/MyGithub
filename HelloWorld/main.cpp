@@ -4,6 +4,7 @@
 #include "01/refAdd.h"
 #include <string.h>
 #include "03/LinkList.h"
+#include "04\select.h"
 
 using namespace std;
 using namespace totcp;
@@ -45,6 +46,8 @@ void showMain() {
 		pBase = new Animal(); 
 	else if (strcmp(input, "03") == 0)
 		pBase = new LinkList();
+	else if (strcmp(input, "04") == 0)
+		pBase = new select();
 	else
 		pBase = new baseCls();
 	pBase->showMain();

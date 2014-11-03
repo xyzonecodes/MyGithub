@@ -81,6 +81,7 @@
     <ClCompile Include="01\refAdd.cpp" />
     <ClCompile Include="02\Animal.cpp" />
     <ClCompile Include="03\LinkList.cpp" />
+    <ClCompile Include="04\select.cpp" />
     <ClCompile Include="baseCls.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -88,6 +89,7 @@
     <ClInclude Include="01\refAdd.h" />
     <ClInclude Include="02\Animal.h" />
     <ClInclude Include="03\LinkList.h" />
+    <ClInclude Include="04\select.h" />
     <ClInclude Include="baseCls.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
