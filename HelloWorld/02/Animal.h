@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Animal.h
  *
  *  Created on: 2014年11月1日
