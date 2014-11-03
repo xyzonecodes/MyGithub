@@ -19,6 +19,9 @@
     <Filter Include="源文件\02">
       <UniqueIdentifier>{2d3815a8-181c-41e3-b59a-254044cf55a9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\03">
+      <UniqueIdentifier>{dd619155-6f13-4824-bd73-89d4238b4553}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -33,6 +36,9 @@
     <ClCompile Include="02\Animal.cpp">
       <Filter>源文件\02</Filter>
     </ClCompile>
+    <ClCompile Include="03\LinkList.cpp">
+      <Filter>源文件\03</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="01\refAdd.h">
@@ -43,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="02\Animal.h">
       <Filter>源文件\02</Filter>
+    </ClInclude>
+    <ClInclude Include="03\LinkList.h">
+      <Filter>源文件\03</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -11,7 +11,7 @@ namespace totcp {
 
 baseCls::baseCls() {
 	// TODO Auto-generated constructor stub
-
+	this->baseInt = 0;
 }
 
 baseCls::~baseCls() {
