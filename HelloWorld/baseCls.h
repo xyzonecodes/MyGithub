@@ -11,9 +11,12 @@
 namespace totcp {
 
 class baseCls {
+	  int baseInt;
 public:
 	baseCls();
 	virtual ~baseCls();
+	void setVale(int n);
+	int getValue();
 	virtual void showMain();
 };
 

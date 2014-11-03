@@ -42,13 +42,12 @@ namespace totcp {
 		cout << "----------------refAdd Main Call-------------------" << endl;
 		refAdd a;
 		refAdd b;
-		refAdd c;
 		cout << "请输入第一个int型数据" << endl;
 		cin >> a.data;
 		cout << "请输入第二个int型数据" << endl;
 		cin >> b.data;
-		c.Add(a, b);
-		c.show();
+		this->Add(a, b);
+		this->show();
 	}
 
 } /* namespace totcp */

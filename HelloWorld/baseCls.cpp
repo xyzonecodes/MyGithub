@@ -22,4 +22,12 @@ void baseCls::showMain() {
 	cout << "base showMain Call!!!" << endl;
 }
 
-}/* namespace totcp */
+void baseCls::setVale(int n) {
+	this->baseInt = n;
+}
+
+int baseCls::getValue(){
+	return this->baseInt;
+}
+}
+/* namespace totcp */
