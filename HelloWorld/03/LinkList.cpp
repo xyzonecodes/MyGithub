@@ -1,6 +1,7 @@
 #include "LinkList.h"
 
 #include<time.h>
+#include <stdlib.h>
 
 
 namespace totcp {
@@ -77,11 +78,11 @@ namespace totcp {
 		if (i == n)
 		{
 			p->data = t;
-			cout << "ÐÞ¸ÄÎ»ÖÃ " << n << " ´¦ÔªËØÎª " << t << " ºó£¬Á´±íÎ´£º" << endl;
+			cout << "ä¿®æ”¹ä½ç½® " << n << " å¤„å…ƒç´ ä¸º " << t << " åŽï¼Œé“¾è¡¨æœªï¼š" << endl;
 			travel();
 		}
 		else
-			cout << "ÕÒµ½²»µ½" << n << "Î»ÖÃµÄÔªËØ" << endl;
+			cout << "æ‰¾åˆ°ä¸åˆ°" << n << "ä½ç½®çš„å…ƒç´ " << endl;
 	}
 
 	void LinkList::showMain(){
@@ -98,10 +99,10 @@ namespace totcp {
 		}
 		obj.travel();
 		cout << "size:" << obj.size() << endl;
-		cout << "²éÕÒÖ¸¶¨ÖµµÃÔªËØÎ»ÖÃ£º";
+		cout << "æŸ¥æ‰¾æŒ‡å®šå€¼å¾—å…ƒç´ ä½ç½®ï¼š";
 		int pos = 0;
 		cin >> pos;
-		cout << "²éÕÒµ½ÎÄ¼þµÄÎ»ÖÃÎª£º" << obj.find(pos) << endl;
+		cout << "æŸ¥æ‰¾åˆ°æ–‡ä»¶çš„ä½ç½®ä¸ºï¼š" << obj.find(pos) << endl;
 		obj.edit(10, 3);
 		obj.edit(20, 20);
 	}
